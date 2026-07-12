@@ -35,3 +35,4 @@ and audit logging. Tool calls are non-blocking — they run inside the executor 
 The coordinator manages an agent pool bounded by `max_agents`. It exposes a typed
 `MessageBus` for inter-agent communication. Agents can fan out sub-goals to the
 coordinator and await results without holding their concurrency slot.
+
