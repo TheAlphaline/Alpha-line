@@ -20,3 +20,4 @@ async def test_runtime_run_goal(config):
     result = await rt.run("summarise the README")
     await rt.stop()
     assert isinstance(result, dict)
+
