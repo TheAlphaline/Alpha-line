@@ -23,3 +23,4 @@ class CodeTool(BaseTool):
             return ToolResult(success=False, output=stdout.decode(), error=stderr.decode())
         finally:
             os.unlink(path)
+
