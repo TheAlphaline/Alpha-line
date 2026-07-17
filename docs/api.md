@@ -40,3 +40,4 @@ class BaseTool:
 - `output: Any`
 - `error: str | None`
 - `metadata: dict`
+
