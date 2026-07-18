@@ -41,3 +41,4 @@ class BaseTool:
 - `error: str | None`
 - `metadata: dict`
 
+
